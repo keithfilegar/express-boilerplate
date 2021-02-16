@@ -21,6 +21,11 @@ Start nodemon for the application `npm run dev`
 
 Run the tests `npm test`
 
+## Seeding postgres db
+
+Run psql -U <user_name> -d <db_name> -f ./seeds/seed.db_name.sql
+
+
 ## Deploying
 
 When your new project is ready for deployment, add a new Heroku application with `heroku create`. This will make a new git remote called "heroku" and you can then `npm run deploy` which will push to this remote's main branch.
